@@ -1,0 +1,92 @@
+{
+  "EFlzmpt11OKRE0ceUkJ3":
+  {
+    "description": "The iPhone, a flagship product from Apple, is celebrated for its elegant design and premium build quality. It runs on the iOS operating system, known for its stability and vast app ecosystem. Equipped with Retina displays, iPhones offer sharp and vibrant visuals. With powerful A13 Bionic chips (or later), they deliver fast and efficient performance. iPhones are celebrated for their high-quality cameras, Face ID security, and seamless integration into the broader Apple ecosystem, ensuring a user-friendly and technologically advanced smartphone experience.",
+    "imageUrl": "products_image/iphone_15.jpg",
+    "price": 800,
+    "productId": 1,
+    "productName": "Iphone 15",
+    "tags": ["Mobile","Apple","128 GB"]
+  },
+  "szj8ccHavig75ms7LfKe":
+  {
+    "description": "The WH-1000XM5 headphones rewrite the rules for distraction-free listening. 2 processors control 8 microphones for unprecedented noise cancellation and exceptional call quality. With a newly developed driver, DSEE – Extreme and Hi-Res audio support the WH-1000XM5 headphones provide awe-inspiring audio quality.",
+    "imageUrl": "products_image/sonyxm5.jpg",
+    "price": 330,
+    "productId": 2,
+    "productName": "Sony WH-1000xm5 Wireless Noise Cancelling Headphone black",
+    "tags": ["Headphome","Sony","Wireless"]
+  },
+  "7YPjZg6FzrvlWGs3UYoQ":
+  {
+    "description": "Mini phone, mighty innovation Join the flip side with the phone that’s tiny, trendy and totally flex-worthy. With an impressive cover screen and foldable design, Galaxy Z Flip5 packs big innovation into a pocket-perfect phone.",
+    "imageUrl": "products_image/zflip5.jpg",
+    "price": 1000,
+    "productId": 3,
+    "productName": "Samsung Galaxy Z Flip 5",
+    "tags": ["Mobile","Samsung","256 GB"]
+  },
+  "bIAVwnQtDqHVvFTpQiz8":
+  {
+    "description": "MacBook Pro blasts forward with the M3, M3 Pro, and M3 Max chips. Built on 3‑nanometer technology and featuring an all-new GPU architecture, they’re the most advanced chips ever built for a personal computer. And each one brings more pro performance and capability.",
+    "imageUrl": "products_image/mbpro23.jpg",
+    "price": 1599,
+    "productId": 4,
+    "productName": "MacBook Pro",
+    "tags": ["Notebook","Apple","512 GB"]
+  },
+  "bIAVwnQtDqHVvFTpQiz8":
+  {
+    "description": "Astonishing performance. Incredibly advanced displays. Superfast wireless connectivity. Next-level Apple Pencil capabilities. Powerful new features in iPadOS. The ultimate iPad experience.",
+    "imageUrl": "products_image/ipadpro23.jpg",
+    "price": 799,
+    "productId": 5,
+    "productName": "iPad Pro",
+    "tags": ["Tablet","Apple","128 GB"]
+  },
+  "zN754na8xI2MpXppTUnN":
+  {
+    "description": "Up to 2x more Active Noise Cancellation. Transparency mode to hear the world around you. All-new Adaptive Audio intelligently tailors noise control to your environment. Spatial Audio takes immersion to a remarkably personal level. And a single charge delivers 6 hours of battery life.",
+    "imageUrl": "products_image/airpodspro2.jpg",
+    "price": 249,
+    "productId": 6,
+    "productName": "AirPods Pro 2nd gen",
+    "tags": ["Earbuds","Apple","Wireless"]
+  },
+  "aTss9yj3CBgUWmhUta6T":
+  {
+    "description": "Our largest Super AMOLED display for a tablet brings your content to life in vivid detail — backed up by our upgraded Qualcomm Snapdragon chipset and smooth 120Hz refresh rate.6 And with an Ultra-Wide Dual Front Camera and included S Pen, you can unleash your most creative self.",
+    "imageUrl": "products_image/s8ultra.jpg",
+    "price": 950,
+    "productId": 7,
+    "productName": "Samsung Galaxy Tab S8 Ultra",
+    "tags": ["Tablet","Samsung","128 GB"]
+  },
+  "9vgjjd9Te46sNaafUqvD":
+  {
+    "description": "To seek the masterpiece, we join hands with Leica, crafting authentic Leica look and capturing the authentic feelings with the technology in the lens ",
+    "imageUrl": "products_image/13tpro.jpg",
+    "price": 910,
+    "productId": 8,
+    "productName": "Xiaomi 13T Pro",
+    "tags": ["Mobile","Xiaomi","1 TB"]
+  },
+  "sEoMGs9dEbuxY8PIHnQf":
+  {
+    "description": "Our most powerful chip in Apple Watch ever. A magical new way to use your Apple Watch without touching the screen. A display that’s twice as bright. And now you can choose a watch case and band combination that’s carbon neutral.",
+    "imageUrl": "products_image/awatch9.jpg",
+    "price": 399,
+    "productId": 9,
+    "productName": "Apple Watch 9",
+    "tags": ["Watch","Apple"]
+  },
+  "gFxPWIEtl3Y5ZkukegBe":
+  {
+    "description": "Introducing AirPods Max — a perfect balance of exhilarating high-fidelity audio and the effortless magic of AirPods. The ultimate personal listening experience is here.",
+    "imageUrl": "products_image/airpodsmax.jpg",
+    "price": 549,
+    "productId": 10,
+    "productName": "AirPods Max",
+    "tags": ["Headphones","Apple","Wireless"]
+  }
+}

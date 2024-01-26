@@ -1,0 +1,25 @@
+.basic-admin-page {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(255, 254, 254), rgb(94, 94, 94));
+  }
+  app-products{
+    margin-top: 20px;
+    background-color: #04aa49;
+    color: #aa0465;
+    border:  1px solid #aa0465;
+  }
+  app-customer{
+    background-color: #04aa49;
+    color: #aa0465;
+    border:  1px solid #aa0465;
+  }
+  app-categories{
+    background-color: #04aa49;
+    color: #aa0465;
+    border:  0.1px solid #aa0465;
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,26 @@
+
+.commentBox{
+    display: flex;
+    flex-flow: column;
+    margin: 10px;
+    background-color: #e4e4e4;
+    border-radius: 15px;
+    padding: 10px;
+}
+.line{
+    width: 92%;
+    height: 2px;
+    background-color: #c5c5c5;
+    border-radius: 1px;
+    border: none;
+}
+#comment-header{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#comment-body{
+    padding: 7px;
+    margin-left: 20px;
+}
+

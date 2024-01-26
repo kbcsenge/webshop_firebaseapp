@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&family=Roboto&display=swap');
+
+:host {
+    display: flex;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(255, 254, 254), rgb(94, 94, 94));
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    /* Remove default body margin */
+}
+
+.signup-form {
+    width: 22%;
+    height: 60%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #f0f0f0;
+    border-radius: 50px;
+    background: #f0f0f0;
+    box-shadow: 20px 20px 60px #cccccc,
+        -20px -20px 60px #ffffff;
+
+    h1 {
+        font-family: 'Noto Serif Balinese', sans-serif;
+        font-size: 40pt;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+
+    .form {
+        width: 80%;
+
+        .form-group {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            width: 100%;
+
+            label {
+                width: 100%;
+                height: 20%;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            input {
+                width: 80%;
+                height: 20%;
+                border: none;
+                appearance: none;
+                -webkit-appearance: none;
+                -ms-appearance: none;
+                -moz-appearance: none;
+                background: #e4e4e4;
+                padding: 12px;
+                border-radius: 5px;
+                font-size: 13pt;
+
+            }
+        }
+
+        .form-actions {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            button {
+                width: 30%;
+                border: 2px solid #04aa49;
+                background-color: #04aa49;
+                padding: 12px;
+                border-radius: 20px;
+                font-size: 13pt;
+                cursor: pointer;
+                margin: 20px;
+                transition: all 0.2s;
+                color: #e4e4e4;
+
+                &:hover{
+                    background-color: #e4e4e4;
+                    color: black;
+                }
+            }
+            .login{
+                border: 2px solid #1d6de4;
+                background-color: #1d6de4;
+            }
+        }
+    }
+
+    .error-message {
+        
+    }
+}

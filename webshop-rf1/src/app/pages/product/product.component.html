@@ -1,0 +1,27 @@
+<div id="host" routerLink="/product/{{product?.productId}}">
+    <div id="wrapper">
+        <div id="left">
+            <img [src]="product?.imageUrl" alt="">
+            <label id="name">{{product?.productName}}</label>
+        </div>
+        <div id="right">
+            <div id="description-div">
+                <div id="description-tags-div">
+                    <label id="description-label">Description</label>
+                    <label id="tags">{{product?.tags}}</label>
+                </div>
+                <p id="description">{{product?.description}}</p>
+            </div>
+            <div id="buy-div">
+                <input id="cart-button" type="submit" value="Add to cart" (click)="addCart()" /> 
+                <label id="price">{{product?.price}}.00 $</label>
+            </div>
+            <div id="comments">
+                <app-comment-form [review]="previousReview"></app-comment-form>
+                <div class="commentContainer">
+                    <app-comment *ngFor="let review of reviews" [comment]="review"></app-comment>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

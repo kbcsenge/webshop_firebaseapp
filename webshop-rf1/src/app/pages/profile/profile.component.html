@@ -1,0 +1,51 @@
+<div class="wrapper">
+    <div class="purchases">
+        <label>My Purchases:</label>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr *ngFor="let purchase of purchasedProducts">
+                    <td><img [src]="purchase.imageUrl" alt=""></td>
+                    <td>{{ purchase.productName }}</td>
+                    <td>{{ purchase.date}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    
+    <div class="customer-form">
+        <label class="become-customer" *ngIf="!isCustomer">Become a customer</label>
+        <label class="modify-customer" *ngIf="isCustomer">Update customer information</label>
+        <div class="names">
+            <div class="form-group">
+                <input type="firstName" [(ngModel)]="firstName" />
+                <label for="firstName">First Name</label>
+            </div>
+            <div class="form-group">
+                <input type="lastName" [(ngModel)]="lastName" />
+                <label for="lastName">Last Name</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="homeAddress" [(ngModel)]="homeAddress" />
+            <label for="homeAddress">Address</label>
+        </div>
+        <div class="form-group">
+            <input type="phoneNumber" [(ngModel)]="phoneNumber" />
+            <label for="phoneNumber">Phone Number</label>
+        </div>
+        <button (click)="becomeCustomer()" *ngIf="!isCustomer">Become Customer</button>
+        <button (click)="updateCustomer()" *ngIf="isCustomer">Update</button>
+      <br>
+        <button *ngIf="isCustomer" (click)="deleteCustomer()">Delete yourself from customers</button>
+      <br>
+    </div>
+</div>

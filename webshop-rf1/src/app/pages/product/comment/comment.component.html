@@ -1,0 +1,7 @@
+<hr class="line">
+<div class = "commentBox">
+    <p id="comment-header">{{username}}:    {{comment?.rating}}/5</p>
+    <p id="comment-body">{{comment?.comment}}</p>
+    <button type="button" *ngIf = "isAdmin" (click)="deleteComment()">Delete comment</button>
+</div>
+

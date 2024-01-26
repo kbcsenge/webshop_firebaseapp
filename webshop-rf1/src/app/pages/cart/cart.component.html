@@ -1,0 +1,54 @@
+<html>
+<body>
+<app-empty-cart [visible]="!cart || cart.items.length <=0"
+                emptyCart="Cart Page is empty"
+                resetLinkText="Go to Home Page">
+
+</app-empty-cart>
+
+<div *ngIf="cart && cart.items.length > 0" class="container">
+  <ul>
+    <li *ngFor="let cartItem of cart.items">
+      <div>
+        <img [src]="cartItem.product.imageUrl" [alt]="cartItem.product.productName">
+      </div>
+      <div>
+        <a routerLink="{{cartItem.product.productId}}" href="/product/{{cartItem.product.productId}}">
+          {{cartItem.product.productName}}
+        </a>
+
+      </div>
+      <div>
+        <select #quantitySelect (change)="changeQuantity(cartItem,
+                quantitySelect.value)" [value]="cartItem.quantity">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+
+        </select>
+      </div>
+      <div>
+        {{cartItem.product.price}} $
+      </div>
+      <div>
+        <button class="remove-button" (click)="removeFromCart(cartItem)">
+          Delete
+        </button>
+      </div>
+    </li>
+  </ul>
+
+  <div class="checkout">
+    <div>
+      <div class="product-count">{{cart.totalCount}} db</div>
+      <div class="total-price">{{cart.totalPrice}} $</div>
+      <div><button class="checkout-button" (click)="checkout()">Order</button></div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
+

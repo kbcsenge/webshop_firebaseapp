@@ -1,0 +1,37 @@
+{
+  "EVKegXYEbhznUoG6jsqO":
+  {
+    "comment": "This product is too expensive and not the best...",
+    "customerId": 5,
+    "productId": 1,
+    "rating": 2
+  },
+  "2AePfk1Ss86mrOURqeky":
+  {
+    "comment": "It's a very good product. I love it!!!! Recommended.",
+    "customerId": 3,
+    "productId": 10,
+    "rating": 5
+  },
+  "41a9b9WisD1b0gi5eX8u":
+  {
+    "comment": "he quality is not the best...",
+    "customerId": 2,
+    "productId": 4,
+    "rating": 3
+  },
+  "AR9Aw4wWzoQxdM3oFsW0":
+  {
+    "comment": "I think that this is the best product  have ever bought!. But it should be  cheaper",
+    "customerId": 7,
+    "productId": 8,
+    "rating": 4
+  },
+  "utFtUPFKSGFxB1OUAk5C":
+  {
+    "comment": "NEVER BUY THIS PLEASE",
+    "customerId": 6,
+    "productId": 2,
+    "rating": 1
+  }
+}

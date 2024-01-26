@@ -1,0 +1,79 @@
+{
+  "QhMdqS3BNR9ovi7ccQYW":
+  {
+    "email": "aureliac@gmail.com",
+    "homeadress": "679 Henry Smith St. Vineland, NJ 08360",
+    "isadmin": false,
+    "userId": 1
+  },
+  "v0DjUMY5M55FYe4ooj3m":
+  {
+    "email": "aronne@gmail.com",
+    "homeadress": "215 Ketch Harbour Court Olive Branch, MS 38654",
+    "isadmin": false,
+    "userId": 2
+  },
+  "SVSoPPvSIjMQ7BH3Yb88":
+  {
+    "email": "josemaria@gmail.com",
+    "homeadress": "7803 N. Orchard St. Sarasota, FL 34231",
+    "isadmin": false,
+    "userId": 3
+  },
+  "xs0rVPdB3coyRArd0v7w":
+  {
+    "email": "comgall@gmail.com",
+    "homeadress": "487 Elmwood Dr. Schererville, IN 46375",
+    "isadmin": false,
+    "userId": 4
+  },
+  "Zs48VOPafvcBReiugdwM":
+  {
+    "email": "zamir@gmail.com",
+    "homeadress": "14 North Cleveland Ave. Whitestone, NY 11357",
+    "isadmin": false,
+    "userId": 5
+  },
+  "T8m841FxdBLOPAIuJ7vy":
+  {
+    "email": "naham@gmail.com",
+    "homeadress": "489 Arrowhead Dr. Wooster, OH 44691",
+    "isadmin": false,
+    "userId": 6
+  },
+  "ZtZmh3i4kMdMhRNucF9z":
+  {
+    "email": "dorirh@gmail.com",
+    "homeadress": "741 W. Argyle Ave. Ottumwa, IA 52501",
+    "isadmin": false,
+    "userId": 7
+  },
+  "sGnZZiojWtOKHRYsV1Is":
+  {
+    "email": "sidisidi@gmail.com",
+    "homeadress": "854 North Division Drive Portsmouth, VA 23703",
+    "isadmin": false,
+    "userId": 8
+  },
+  "jsG5SbGEUPP5hKQk3IBd":
+  {
+    "email": "iviamilani@gmail.com",
+    "homeadress": "7071 Mill Drive El Paso, TX 79930",
+    "isadmin": false,
+    "userId": 9
+  },
+  "5Rt5jVqZMXciShYRyUqC":
+  {
+    "email": "blankaaa@gmail.com",
+    "homeadress": "376 Ramblewood St. Christiansburg, VA 24073",
+    "isadmin": false,
+    "userId": 10
+  },
+  "e0dc4gaMs7XTCbSQhnAEgk2vitU2":
+  {
+    "email": "admin@gmail.com",
+    "homeadress": "none",
+    "isadmin": true,
+    "userId": 11
+  }
+}

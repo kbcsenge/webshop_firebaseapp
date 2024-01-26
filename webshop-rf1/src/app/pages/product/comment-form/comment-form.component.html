@@ -1,0 +1,18 @@
+<form id="comment-form" [formGroup]="commentForm" (ngSubmit)="onSubmit()">
+    <div id="comment-div">
+        <label for="comment">Comment</label><br>
+        <input type="text" id="comment" formControlName="comment" maxlength="255"><br>
+    </div>
+    <div id="rating-div">
+        <input type="text" id="rating" formControlName="rating" maxlength="1"><br>
+        <label for="oo5">/5</label><br>
+    </div>
+    <div id="submit">
+        <button class="button" type="submit" *ngIf="review === undefined">Add</button>
+        <button class="button" type="submit" *ngIf="review !== undefined">Update</button>
+    </div>
+</form>
+<p class="error" *ngIf="notLoggedIn">Login required</p>
+<p class="error" *ngIf="!isCustomer">Register as a customer to leave a review</p>
+<p class="error" *ngIf="ratingInvalid">Rating must be a number 1 - 5 </p>
+<p class="error" *ngIf="commentTooShort">Please write a short comment</p>

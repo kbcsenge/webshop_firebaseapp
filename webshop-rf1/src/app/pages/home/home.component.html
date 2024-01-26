@@ -1,0 +1,21 @@
+<app-search></app-search>
+<app-tags></app-tags>
+<div class="bg">
+<ul class="card-list">
+    <li *ngFor="let product of products" class="card-list-item">
+      <a routerLink="/product/{{product.productId}}" class="card-link">
+        <mat-card class="card">
+          <img mat-card-image [src]="product.imageUrl" alt="">
+          <mat-card-content class="card-content">
+            <div class="card-title">
+              {{product.productName}}
+            </div>
+            <div class="card-subtitle">
+              Price: {{product.price + " $"}}
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </a>
+    </li>
+  </ul>
+</div>
